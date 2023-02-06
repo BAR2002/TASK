@@ -1,0 +1,85 @@
+/* global color  */
+
+:root{
+    --primary: #a6ffff;
+    --secondary: #009985;
+    --black: rgb(32, 32, 32);
+    --bg_color: #0D2436;
+    --font_color: #FFFFFF;
+    --font_color_hover: #CCCCCC;
+    --card_bg: silver;
+    --black2:black;
+}
+
+
+/* global button  */
+
+.App{
+    margin: 0;
+    padding: 0;
+    background-color: #0D2436;
+    color: #FFFFFF;
+    font-family: "Roboto";
+}
+
+.button{
+    min-height: 40px;
+    min-width: 100px;
+    border-radius: 5%;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: var(--secondary);
+    border: none;
+}
+.button.large{
+    min-width: 60px!important;
+    min-width: 120px!important;
+}
+.button:hover{
+    cursor: pointer;
+    border-top: 4px solid var(--primary);
+    overflow: hidden;
+}
+
+
+.categories{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2%;
+    text-align: center;
+}
+
+
+.listedItems{
+    display: flex;
+    flex: 0.9;
+    margin-top: 4%;
+    justify-content: space-around;
+}
+
+.titleName{
+    background-color: grey !important;
+    height: 30px;
+    width: 148px;
+    text-align: center;
+}
+
+.eachItem{
+    background-color: #34AC9C;
+}
+.images{
+    border-radius: 500px;
+    height: 259px;
+}
+
+.button{
+    margin-left: 1341px !important;
+}
+
+.title{
+    background-color: grey;
+    width: 1474px;
+    padding: 10px;
+    text-align: initial;
+}
